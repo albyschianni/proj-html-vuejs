@@ -33,7 +33,7 @@ export default{
             <nav>
                 <div class="navbar">
                     <div>
-                        <img src="../assets/img/logo.svg" alt="">
+                        <img id="logo-img" src="../assets/img/logo.svg" alt="">
                     </div>
                     <div class="space-nav">
                         <div class="font-color">HOME</div>
@@ -66,6 +66,9 @@ export default{
 section {
     background-color: #28363c;
     min-height: 50px;
+}
+#logo-img {
+    width: 125px;
 }
 .info-container {
     display: flex;
@@ -116,6 +119,7 @@ section {
 .cane {
     background-image: url(../assets/img/bg-13.jpg);
     min-height: 700px;
+    background-size: cover;
 }
 .slogan {
     width: 55%;
