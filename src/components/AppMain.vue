@@ -19,18 +19,50 @@ export default{
                     <h2>WE OFFER A FULL RANGE OF DELIVERY METHODS.</h2>
                 </div>
                 <div id="fast-ship">
-                    shipping fast
+                    <div class="container-icon"> 
+                        <font-awesome-icon icon="fa-solid fa-truck-fast" />
+                        <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                    </div>
+                    <div class="ship-type">
+                        Shipping Fast
+                    </div>
+                    <p class="ship-desc">Special fast delivery service that guarantees the arrival of the object on the same day as postage. Included monitoring via mobile app.</p>
+                    
                 </div>
             </div>
             <div class="mezzi-trasp-down">
                 <div class="mezzi-trasp">
-                    motoboy
+                    <div class="container-icon"> 
+                        <font-awesome-icon icon="fa-solid fa-motorcycle" />
+                        <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                    </div>
+                    <div class="ship-type">
+                        Motoboy
+                    </div>
+                    <p class="ship-desc">Functional motoboy for delivery of documents and small objects.</p>
+                   
                 </div>
                 <div class="mezzi-trasp">
-                    shuttle van
+                    <div class="container-icon"> 
+                        <font-awesome-icon icon="fa-solid fa-van-shuttle" />
+                        <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                    </div>
+                    <div class="ship-type">
+                        Shuttle Van
+                    </div>
+                    <p class="ship-desc">Suitable for medium sixed loads that need digital tracking.</p>
+                    
                 </div>
                 <div class="mezzi-trasp">
-                    mini truck
+                    <div class="container-icon"> 
+                        <font-awesome-icon icon="fa-solid fa-truck-moving" />
+                        <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                    </div>
+                    <div class="ship-type">
+                        Mini Truck
+                    </div>
+                    <p class="ship-desc">For dry cargo deliveries with more cubic allocation.</p>
+                    
                 </div>
             </div>
         </div>
@@ -40,13 +72,13 @@ export default{
         <div class="who-are-text">
             <span>WHO WE ARE</span>
             <h2 id="industry-Lead">Industry Leaders.</h2>
-            <p>With all of this expertise and capability comes an unrevalled commitment to costumer service.</p>
-            <p id="p-to-btn">We will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
+            <p class="p-2">With all of this expertise and capability comes an unrevalled commitment to costumer service.</p>
+            <p class="p-2" id="p-to-btn">We will work hard to understand your needs in order to develop a productive, long-term partnership.</p>
             <a class="btn-read" href="">READ MORE</a>
         </div>
     </section>
     <!-- TERZA SEZIONE MONTHLY PLAN -->
-    <section>
+    <section  class="monthly-plan">
 
     </section>
     <!-- QUARTA SEZIONE CHOOSE US -->
@@ -87,9 +119,14 @@ h2 {
 #fast-ship {
     background-color: #19191f;
     margin-bottom: 20px;
+    width: 66%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 .mezzi-trasp-up {
     display: flex;
+   
 }
 .mezzi-trasp-down {
     display: flex;
@@ -99,7 +136,30 @@ h2 {
 .mezzi-trasp {
     width: calc((100% / 3) - 15px);
     background-color: #19191f;
-    border-radius: 3px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.ship-type {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.ship-desc {
+    color: #c0c3d0;
+    font-size: 17px;
+}
+.fa-truck-fast, .fa-motorcycle, .fa-van-shuttle, .fa-truck-moving {
+    font-size: 40px;
+    color: #098080;
+}
+.fa-arrow-right {
+    font-size: 20px;
+    color: #098080;
 }
 
 // seconda sezione
@@ -122,7 +182,7 @@ h2 {
     padding-right: 400px;
     color: #21333e;
 }
-p {
+.p-2 {
     padding-right: 340px;
     color: #756d75;
     font-size: 20px;
@@ -139,9 +199,11 @@ p {
     border-radius: 3px;
     
 }
-// terza sezione
-
-// quarta sezione 
+// terza sezione ||||||
+.monthly-plan {
+    background-color: #eef4ed;
+}
+// quarta sezione ||||||
 .choose-us {
     background-image: url(../assets/img/bg-72.jpg);
     background-size: cover;

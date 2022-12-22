@@ -15,14 +15,14 @@ export default{
             <div class="upper-info">
                 <div class="info-container">
                     <div>
-                        Open Hours Mon - Sat - 9:00 - 18:00
+                        <font-awesome-icon icon="fa-solid fa-clock" />  Open Hours Mon - Sat - 9:00 - 18:00
                     </div>
                     <div class="contact-info">
-                        <div>+1(305)1234-5678</div>
-                        <div class="space">hello@example.com</div>
-                        <div class="space">F</div>
-                        <div class="space">T</div>
-                        <div class="space">IN</div>
+                        <div><font-awesome-icon icon="fa-solid fa-phone" /> +1(305)1234-5678 </div>
+                        <div class="space"><font-awesome-icon icon="fa-solid fa-envelope" /> hello@example.com</div>
+                        <div class="space"><font-awesome-icon icon="fa-brands fa-facebook" /></div>
+                        <div class="space"><font-awesome-icon icon="fa-brands fa-twitter" /></div>
+                        <div class="space"><font-awesome-icon icon="fa-brands fa-linkedin" /></div>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default{
                         <div class="font-color">SERVICES</div>
                         <div class="font-color">ABOUT</div>
                         <div class="font-color">PRICING</div>
-                        <div>icon</div>
+                        <div><font-awesome-icon icon="fa-regular fa-user" /></div>
                         <a class="btn-touch" href="">GET IN TOUCH</a>
                     </div>
                 </div>
