@@ -82,7 +82,7 @@ export default{
         <div class="container">
             <span id="span-price">MONTHLY PLANS</span>
             <h4 id="h2-price">Pricing Table</h4>
-            <p>We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p>
+            <div class="p-div">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</div>
 
             <div class="container-box">
                 <div class="standard">
@@ -327,7 +327,7 @@ h2 {
         text-align: center;
         margin-top: 15px;
     }
-    p {
+    .p-div {
         color: #756d75;
         width: 100%;
         text-align: center;
