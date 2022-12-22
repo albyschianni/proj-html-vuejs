@@ -79,7 +79,114 @@ export default{
     </section>
     <!-- TERZA SEZIONE MONTHLY PLAN -->
     <section  class="monthly-plan">
+        <div class="container">
+            <span id="span-price">MONTHLY PLANS</span>
+            <h4 id="h2-price">Pricing Table</h4>
+            <p>We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</p>
 
+            <div class="container-box">
+                <div class="standard">
+                    <div style="display: flex; justify-content:center"><div><font-awesome-icon icon="fa-solid fa-rocket" /></div></div>
+                    <div class="plan-text" style="text-align:center">Standard</div>
+                    <div style="display: flex; justify-content: center; margin-bottom: 15px;" >
+                        <div style="font-size: 22px; color:#098080; margin-top: 8px;">$ </div>
+                        <div style="font-size: 32px; color:#098080"> 490</div>
+                        <div style="font-size: 22px; color:#098080; margin-top: 8px;"> /mo</div>
+                    </div>
+                    <div>
+                        <ul style="list-style: none; color: #756d75; ">
+                            <div style="display: flex; justify-content:space-between"> 
+                                <li>National Coverage </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div> 
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Unlimited Motoboy </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Address Collection </li>
+                                <div><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Mobile App Tracking </li>
+                                <div><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Cargo Insurance </li>
+                                <div><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="professional">
+                    <div class="label">Most Popular</div>
+                    <div style="display: flex; justify-content:center"><div><font-awesome-icon icon="fa-solid fa-suitcase" /></div></div>
+                    <div class="plan-text" style="text-align:center">Professional</div>
+                    <div style="display: flex; justify-content: center; margin-bottom: 15px;">
+                        <div style="font-size: 22px; color:#098080; margin-top: 8px;">$ </div>
+                        <div style="font-size: 32px; color:#098080"> 890</div>
+                        <div style="font-size: 22px; color:#098080; margin-top: 8px;"> /mo</div>
+                    </div>
+                    <div>
+                        <ul style="list-style: none; color: #756d75; ">
+                            <div style="display: flex; justify-content:space-between"> 
+                                <li>National Coverage </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div> 
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Unlimited Motoboy </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Address Collection </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Mobile App Tracking </li>
+                                <div><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Cargo Insurance </li>
+                                <div><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ultimate">
+                    <div style="display: flex; justify-content:center"><div><font-awesome-icon icon="fa-regular fa-gem" /></div></div>
+                    <div class="plan-text" style="text-align:center">Ultimate</div>
+                    <div style="display: flex; justify-content: center; margin-bottom: 15px;">
+                        <div style="font-size: 22px; color:#098080; margin-top: 8px;">$ </div>
+                        <div style="font-size: 32px; color:#098080"> 1390</div>
+                        <div style="font-size: 22px; color:#098080; margin-top: 8px;"> /mo</div>
+                    </div>
+                    <div>
+                        <ul style="list-style: none; color: #756d75; ">
+                            <div style="display: flex; justify-content:space-between"> 
+                                <li>National Coverage </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div> 
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Unlimited Motoboy </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Address Collection </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Mobile App Tracking </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div>
+                            <div style="display: flex; justify-content:space-between">
+                                <li>Cargo Insurance </li>
+                                <div><font-awesome-icon icon="fa-solid fa-check" /></div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- QUARTA SEZIONE CHOOSE US -->
     <section class="choose-us">
@@ -202,6 +309,96 @@ h2 {
 // terza sezione ||||||
 .monthly-plan {
     background-color: #eef4ed;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    #span-price {
+        width: 100%;
+        text-align: center;
+    }
+
+    #h2-price{
+        font-size: 40px;
+        color: #0f1217;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    p {
+        color: #756d75;
+        width: 100%;
+        text-align: center;
+        padding: 0% 25%;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    
+    }
+}
+.container-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.standard {
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-height: 360px;
+}
+.professional {
+    width: 32%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    min-height: 380px;
+    position: relative;
+}
+.label {
+    position: absolute;
+    left: 0;
+    top: 10;
+    width: 75px;
+    background-color: #098080;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 8px 8px 0px;
+}
+.ultimate {
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-height: 360px;
+}
+
+.fa-rocket, .fa-suitcase, .fa-gem {
+    color: #098080;
+    font-size: 40px;
+    text-align: center;
+}
+.fa-check, .fa-xmark {
+    // margin-left: 145px;
+    color: #098080;
+}
+.plan-text {
+    font-size: 25px;
+    color: #0f1217;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+li {
+    margin-bottom: 10px;
 }
 // quarta sezione ||||||
 .choose-us {
