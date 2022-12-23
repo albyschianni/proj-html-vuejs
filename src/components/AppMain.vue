@@ -13,6 +13,7 @@ export default{
     <!-- PRIMA SEZIONE WHAT WE DO -->
     <section class="what-do">
         <div class="container">
+            <!-- SUDDIVISIONE SEZIONE PARTE ALTA -->
             <div class="mezzi-trasp-up">
                 <div id="info-trasp">
                     <span>WHAT WE DO</span>
@@ -30,6 +31,7 @@ export default{
                     
                 </div>
             </div>
+            <!-- SUDDIVISIONE SEZIONE PARTE BASSA -->
             <div class="mezzi-trasp-down">
                 <div class="mezzi-trasp">
                     <div class="container-icon"> 
@@ -83,7 +85,7 @@ export default{
             <span id="span-price">MONTHLY PLANS</span>
             <h4 id="h2-price">Pricing Table</h4>
             <div class="p-div">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</div>
-
+            <!-- DIVISIONE ABBONAMENTI -->
             <div class="container-box">
                 <div class="standard">
                     <div style="display: flex; justify-content:center"><div><font-awesome-icon icon="fa-solid fa-rocket" /></div></div>
@@ -356,7 +358,7 @@ h2 {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    min-height: 380px;
+    min-height: 400px;
     position: relative;
 }
 .label {

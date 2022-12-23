@@ -10,8 +10,8 @@ export default{
 </script>
 
 <template>
+    <!-- SEZIONE GET IN TOUCH (SINISTRA) -->
     <section class="footer-main">
-        
         <div class="container-up">
             <div class="get-touch">
                 <span>SEND A MESSAGE</span>
@@ -27,12 +27,13 @@ export default{
                         <option value="">A</option>
                         <option value="">B</option>
                     </select>
-                    <input class="message" type="text" placeholder="Message">
+                    <textarea class="message" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                 </div>
 
-                <a id="send" href="">SEND</a>
-
+                <input id="send" type="submit" value="SEND" >
             </div>
+
+    <!-- SEZIONE CONTATTI AZIENDA (DESTRA) -->
             <div class="info-industry">
                 <div class="agency-name">
                     Example Inc.
@@ -51,15 +52,11 @@ export default{
                         <font-awesome-icon icon="fa-solid fa-location-dot" /> Main Avenue, 987
                     </div>
                 </div>
-                
-
                 <a id="map" href="">VIEW MAP</a>
             </div>
          </div>
-        
-
     </section>
-
+   <!-- BOTTOM BAR & COPYRIGHT -->
     <section id="lower-footer">
         <div class="container-low">
             <div class="text-low-foot">
@@ -123,6 +120,7 @@ export default{
     color: white;
     padding: 10px 15px;
     border-radius: 3px;
+    border: none;
 }
 span {
     color: #098080;

@@ -10,6 +10,7 @@ export default{
 </script>
 
 <template>
+    <!-- SEZIONE NAVBAR & MENU INFO TOP -->
     <section>
         <div class="container">
             <div class="upper-info">
@@ -28,6 +29,7 @@ export default{
             </div>
         </div>
     </section>
+    <!-- SEZIONE INTRO / JUMBO  -->
     <section class="cane">
         <div class="container">
             <nav>
@@ -80,6 +82,7 @@ section {
 .contact-info {
     display: flex;
     justify-content: space-around;
+    width: 40%;
 }
 .space {
     margin-left: 12px;
